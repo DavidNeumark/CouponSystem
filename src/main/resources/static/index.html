@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>CouponSystem Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="col-md-6">
+        
+        <!-- Login Form -->
+        <div class="nb-login">
+            <h3 class="scenter">Sign In</h3>
+            <form action="./Login" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Enter User-name">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
+				</div>
+				<div class="form-group">
+				<p>Client Type:</p>
+				  	<input type="radio" name="userType" value="ADMIN" checked> Administrator<br>
+					<input type="radio" name="userType" value="COMPANY"> Company<br>
+				  	<input type="radio" name="userType" value="CUSTOMER"> Customer <br>
+				  <br><br>
+               
+				<button type="submit" class="btn btn-block">Sign In</button>
+			</div>
+            </form>
+            
+        </div>
+        
+        </div> 
+
+</body>
+</html>

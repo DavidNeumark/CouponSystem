@@ -1,0 +1,70 @@
+
+
+body{
+  background: #f1f1f5;
+}
+.nb-login{
+	max-width:300px;
+	margin:30px auto;
+	background:rgba(126, 124, 124, 0.822);
+	padding:20px 25px;
+	border-radius:2px;
+	box-shadow:0px 0px 10px rgba(255,255,255,0.05);
+}
+.nb-login h3{
+	font-size:13px;
+	line-height:13px;
+	margin:15px 0px 25px 0px;
+	text-transform:uppercase;
+	color:#fff;
+}
+.nb-login form{
+	margin-bottom:15px;
+	color:#fff;
+}
+.nb-login form input,
+.nb-login form textarea{
+	box-shadow:none !important;
+	padding:6px 5px;
+	color:#fff;
+	border:0px;
+	border-bottom:1px solid rgba(255,255,255,0.5);
+	background:transparent;
+	border-radius:0px;
+}
+.nb-login form input:focus{
+  background: rgba(255,255,255,0.05);
+}
+.nb-login form ::-webkit-input-placeholder {
+   color: rgba(255,255,255,0.5);
+}
+.nb-login form ::-moz-placeholder {
+   color: rgba(255,255,255,0.5);
+}
+.nb-login form :-ms-input-placeholder {
+   color: rgba(255,255,255,0.5);
+}
+.nb-login form .btn{
+	border:0px;
+	border-radius:25px;
+	padding:10px 20px;
+	border:1px solid rgba(255,255,255,0.5);
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:600;
+	background:transparent;
+	margin-top:15px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.nb-login form .btn:hover{
+	background:#fff;
+	color:#666;
+}
+
+.nb-login .center{
+  text-align: center;
+}

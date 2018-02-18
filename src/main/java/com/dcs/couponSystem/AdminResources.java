@@ -27,7 +27,7 @@ import facades.AdminFacade;
 @RequestMapping(value = "Admin")
 public class AdminResources {
 
-	private Logger logger = Logger.getLogger("AdminResources");
+	final static Logger logger = Logger.getLogger(AdminResources.class);
 
 	@RequestMapping(value = "/getAllCompanies", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public Collection<Company> getAllCompanies(HttpServletRequest request, HttpServletResponse response)
